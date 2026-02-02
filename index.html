@@ -18,14 +18,16 @@
   </div>
   <br><br>
 
-  
+  <img id="valentineImg" src="yes.png" width="300" style="display:none;">
+
 
 
 <script>
   function sayYes() {
     alert(
     " 💖 Alas na parat mazyakadechhh...😄 Bestfriends forever 🫂");  
-    <img src="yes.png" width="300">
+        document.getElementById("valentineImg").style.display = "block";
+
   }
   function moveNo() {
     const btn = document.querySelector('.no');
